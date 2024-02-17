@@ -49,7 +49,7 @@ def save_content_as_json(content_json):
 
 
 # Example usage
-topic = "water cycle"
+topic = "shivaji maharaj"
 prompt = create_prompt(topic)
 quiz_content_json = generate_quiz(prompt )
 if quiz_content_json:

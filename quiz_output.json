@@ -1,56 +1,56 @@
 {
-    "quiz_title": "machine learning",
-    "quiz_id": "5h82i9kFpT",
+    "quiz_title": "shivaji maharaj",
+    "quiz_id": "K2G6JL8T5H",
     "questions": [
         {
-            "question": "What is machine learning?",
+            "question": "Who was the founder of the Maratha Empire?",
             "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "Rajaram",
+                "Shivaji",
+                "Sambhaji",
+                "Baji Rao I"
             ],
-            "correct_answer": "A"
+            "correct_answer": "Shivaji"
         },
         {
-            "question": "Which algorithm is commonly used in supervised learning?",
+            "question": "Shivaji Maharaj was born in which fort?",
             "options": [
-                "X",
-                "Y",
-                "Z",
-                "W"
+                "Raigad",
+                "Pratapgad",
+                "Torna",
+                "Shivneri"
             ],
-            "correct_answer": "X"
+            "correct_answer": "Shivneri"
         },
         {
-            "question": "What is overfitting in machine learning?",
+            "question": "What was the title given to Shivaji Maharaj by the Sultan of Bijapur?",
             "options": [
-                "P",
-                "Q",
-                "R",
-                "S"
+                "Chatrapati",
+                "Swami",
+                "Maharajadhiraj",
+                "Raje"
             ],
-            "correct_answer": "P"
+            "correct_answer": "Chatrapati"
         },
         {
-            "question": "What is the purpose of cross-validation in machine learning?",
+            "question": "In which year did Shivaji Maharaj coronate himself as the king?",
             "options": [
-                "L",
-                "M",
-                "N",
-                "O"
+                "1675",
+                "1645",
+                "1657",
+                "1664"
             ],
-            "correct_answer": "M"
+            "correct_answer": "1675"
         },
         {
-            "question": "What are the main types of machine learning approaches?",
+            "question": "Shivaji Maharaj's coronation took place at which fort?",
             "options": [
-                "E",
-                "F",
-                "G",
-                "H"
+                "Raigad",
+                "Janjira",
+                "Pratapgad",
+                "Panhala"
             ],
-            "correct_answer": "G"
+            "correct_answer": "Raigad"
         }
     ]
 }

@@ -13,7 +13,7 @@ def generate_quiz(topic):
         "model": "gpt-3.5-turbo",  # Adjust the model name as needed
         "messages": [
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": f"Create a quiz about {topic}."}
+            {"role": "user", "content": f""}
         ]
     }
 
