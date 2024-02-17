@@ -9,7 +9,7 @@ def create_prompt(topic):
 
 
 def generate_quiz(prompt):
-    api_key = "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"
+    api_key = "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"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
