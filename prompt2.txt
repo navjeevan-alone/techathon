@@ -1,0 +1,3 @@
+Create a CLI application 
+in python 
+User inputs prompt -> Request to Chatgpt -> Returns JSON object for Quiz -> Take quiz in terminal -> Saves his question,options,answers, time_taken to csv file ->display score ->  send this csv  to Chatgpt -> chatgpt analysis -> save to file -> display analysis 
