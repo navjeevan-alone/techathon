@@ -1,56 +1,56 @@
 {
     "quiz_title": "machine learning",
-    "quiz_id": "k3l91jbf4a",
+    "quiz_id": "5h82i9kFpT",
     "questions": [
         {
             "question": "What is machine learning?",
             "options": [
-                "A method of training computers to make decisions",
-                "A type of language used in programming",
-                "A physical machine for learning purposes",
-                "A type of computer hardware"
+                "A",
+                "B",
+                "C",
+                "D"
             ],
-            "correct_answer": "A method of training computers to make decisions"
+            "correct_answer": "A"
         },
         {
-            "question": "What is supervised learning?",
+            "question": "Which algorithm is commonly used in supervised learning?",
             "options": [
-                "Learning with a teacher",
-                "Learning without any guidance",
-                "Learning from past experiences",
-                "Learning in a classroom setting"
+                "X",
+                "Y",
+                "Z",
+                "W"
             ],
-            "correct_answer": "Learning with a teacher"
-        },
-        {
-            "question": "Which algorithm is commonly used for linear regression?",
-            "options": [
-                "Support Vector Machine",
-                "K-Nearest Neighbors",
-                "Decision Tree",
-                "Least Squares"
-            ],
-            "correct_answer": "Least Squares"
+            "correct_answer": "X"
         },
         {
             "question": "What is overfitting in machine learning?",
             "options": [
-                "A model that is too simple to capture the underlying patterns in data",
-                "A model that is complex and memorizes the training examples without generalizing well",
-                "A method of underfitting the data",
-                "A bias-variance tradeoff scenario"
+                "P",
+                "Q",
+                "R",
+                "S"
             ],
-            "correct_answer": "A model that is complex and memorizes the training examples without generalizing well"
+            "correct_answer": "P"
         },
         {
-            "question": "In classification tasks, what does precision measure?",
+            "question": "What is the purpose of cross-validation in machine learning?",
             "options": [
-                "The ability of the model to predict positive cases correctly",
-                "The ability of the model to predict negative cases correctly",
-                "The proportion of correctly classified positives among the total predicted positives",
-                "The proportion of correctly classified negatives among the total predicted negatives"
+                "L",
+                "M",
+                "N",
+                "O"
             ],
-            "correct_answer": "The ability of the model to predict positive cases correctly"
+            "correct_answer": "M"
+        },
+        {
+            "question": "What are the main types of machine learning approaches?",
+            "options": [
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "correct_answer": "G"
         }
     ]
 }
