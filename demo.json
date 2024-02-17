@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8rrUBhP13UE3WrgoN7hfECm0dpgxl",
+    "object": "chat.completion",
+    "created": 1707847675,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "1. Polar bears are the largest land-dwelling carnivores, with adult males weighing up to 1,500 pounds (680 kilograms) and measuring about 8 to 10 feet (2.4 to 3 meters) in length.\n2. They are excellent swimmers and can cover long distances in water, often traversing vast expanses of Arctic sea ice in search of food.\n3. Polar bears have a thick layer of blubber and a dense fur coat that help them survive in the harsh Arctic conditions, keeping them warm and buoyant in cold waters.\n4. Unlike other bear species, polar bears have evolved to have longer necks and narrower heads, which assist them in capturing prey like seals from breathing holes in the ice.\n5. The fur of polar bears appears white, but it is actually translucent and colorless. Its white appearance is a result of light scattering through the fur, reflecting the surrounding snow and ice."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 25,
+        "completion_tokens": 190,
+        "total_tokens": 215
+    },
+    "system_fingerprint": null
+}

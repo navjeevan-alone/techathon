@@ -1,0 +1,18 @@
+
+Generate content based on prompt and fill json missing fields with md text
+UserPrompt : {{user_prompt}} 
+Format JSON:
+{
+topic : <grab topic from prompt>
+notes : 
+} 
+Only return in JSON
+user_prompt : water cycle 
+
+
+
+# prompt 2
+
+@Youtube 
+UserPrompt : {{user_prompt}}
+Find the most suitable video on given topic and return link

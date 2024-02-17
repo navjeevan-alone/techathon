@@ -1,0 +1,13 @@
+curl -s -X POST https://api.creatomate.com/v1/renders \
+  -H 'Authorization: Bearer a59cc61d043143eba541f18c74763517781e3a9d295e6c64a3b6e7db75f503ff37f65730881ab6f9ffb9eac1dda76f1b' \
+  -H 'Content-Type: application/json' \
+  --data-binary @- << EOF
+{
+  "template_id": "8ac84e37-850d-44d9-be61-24aa431f587c",
+  "modifications": {
+    "ecf1a01d-ff16-4b5f-a58c-a4998b02e502": "https://creatomate.com/files/assets/7347c3b7-e1a8-4439-96f1-f3dfc95c3d28",
+    "Text-1": "Your Text And Video Here",
+    "Text-2": "Create & Automate\n[size 150%]Video[/size]"
+  }
+}
+EOF
