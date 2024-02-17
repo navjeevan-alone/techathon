@@ -4,7 +4,7 @@ import requests
 import time
 
 # Replace with your actual OpenAI API key
-API_KEY = 'AIzaSyCZ2Vn50GJKiaDsFOvL6LCgiY8jZTo4wwc'
+API_KEY = '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'
 QUIZ_JSON_PATH = 'quiz_questions.json'
 CSV_FILE_PATH = 'quiz_responses.csv'
 ANALYSIS_JSON_PATH = 'quiz_analysis.json'
@@ -12,7 +12,7 @@ number_of_question = 5
 
 def generate_quiz(prompt):
     headers = {'Authorization': 'Bearer {}'.format(API_KEY), 'Content-Type': 'application/json'}
-    data = {'model': 'gpt-3.5-turbo', 'prompt': prompt, 'temperature': 0.7, 'max_tokens': 1000}
+    data = { 'model':"gpt-3.5-turbo-1106", 'response_format':{"type":"json_object"}, 'prompt': prompt, 'temperature': 0.7, 'max_tokens': 1000}
     response = requests.post('https://api.openai.com/v1/engines/text-davinci-003/completions', headers=headers, json=data)
     quiz_json = response.json()
     with open(QUIZ_JSON_PATH, 'w') as f:
@@ -83,21 +83,9 @@ def analyze_responses():
 
 if __name__ == '__main__':
     topic = input("Enter a topic for the quiz: ")
-    user_prompt=""" Return  JSON object only 
-            Create a quiz on  magnets
-            Format : {
-            "quiz_title": {topic},
-            "quiz_id" : random id with length 10 ,
-            "questions": [
-                {
-                "question": ,
-                "options":Array of 4 options,
-                "correct_answer": str 
-                }, // create similar {number_of_ques} question 
-            this i am using as string in python giving error
-            convert above para to python string by using  escape character""".format(topic=topic,number_of_question=number_of_question),
-    
+    user_prompt=f"Return  JSON object only  Create a quiz on quiz_title  Format :( quiz_title: {topic}, quiz_id: random id with length 10 , questions: [ \(question: ,  options:Array of 4 options, correct_answer: str ), // create similar 5 question"    
     
     generate_quiz(user_prompt)
+    time.sleep(5)
     take_quiz()
     analyze_responses()

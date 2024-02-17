@@ -1,0 +1,56 @@
+{
+    "quiz_title": "machine learning",
+    "quiz_id": "k3l91jbf4a",
+    "questions": [
+        {
+            "question": "What is machine learning?",
+            "options": [
+                "A method of training computers to make decisions",
+                "A type of language used in programming",
+                "A physical machine for learning purposes",
+                "A type of computer hardware"
+            ],
+            "correct_answer": "A method of training computers to make decisions"
+        },
+        {
+            "question": "What is supervised learning?",
+            "options": [
+                "Learning with a teacher",
+                "Learning without any guidance",
+                "Learning from past experiences",
+                "Learning in a classroom setting"
+            ],
+            "correct_answer": "Learning with a teacher"
+        },
+        {
+            "question": "Which algorithm is commonly used for linear regression?",
+            "options": [
+                "Support Vector Machine",
+                "K-Nearest Neighbors",
+                "Decision Tree",
+                "Least Squares"
+            ],
+            "correct_answer": "Least Squares"
+        },
+        {
+            "question": "What is overfitting in machine learning?",
+            "options": [
+                "A model that is too simple to capture the underlying patterns in data",
+                "A model that is complex and memorizes the training examples without generalizing well",
+                "A method of underfitting the data",
+                "A bias-variance tradeoff scenario"
+            ],
+            "correct_answer": "A model that is complex and memorizes the training examples without generalizing well"
+        },
+        {
+            "question": "In classification tasks, what does precision measure?",
+            "options": [
+                "The ability of the model to predict positive cases correctly",
+                "The ability of the model to predict negative cases correctly",
+                "The proportion of correctly classified positives among the total predicted positives",
+                "The proportion of correctly classified negatives among the total predicted negatives"
+            ],
+            "correct_answer": "The ability of the model to predict positive cases correctly"
+        }
+    ]
+}
