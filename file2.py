@@ -4,7 +4,7 @@ import json
 
 def generate_quiz(topic):
     # Replace with your actual OpenAI API key
-    api_key = "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"
+    api_key = "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"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
@@ -53,7 +53,7 @@ def save_content_as_json(content_json):
 
 
 # Example usage
-topic = "magnets"
+topic = "open cv"
 quiz_content_json = generate_quiz(topic)
 if quiz_content_json:
     print(quiz_content_json)
