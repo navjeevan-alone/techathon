@@ -1,7 +1,0 @@
-chatgpt api_key = "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"
-youtube data api key = AIzaSyCZ2Vn50GJKiaDsFOvL6LCgiY8jZTo4wwc 
-
-
-
-
-## Chatgpt API keys ##
